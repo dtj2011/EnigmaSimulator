@@ -1,6 +1,6 @@
 # EnigmaSimulator
 Enigma Machine Simulator
 
-##Important
+## Important
 
 Only Rotors applied, plugs will be added soon, support only for alphabets.
