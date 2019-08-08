@@ -1,0 +1,28 @@
+<html>
+
+<head>
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<div class = "outer">
+
+<div class = container>
+<textarea id="txt" rows="5" cols="50" placeholder = "Enter text to be encrypted"></textarea>
+</div>
+<label for = "rotor1">Rotor 1:</label>
+<input type = "range" id = "rotor1" class = "rotors" min = "1" max = "26" step="1">
+<span id = "rt1text"></span>
+<label for = "rotor2">Rotor 2:</label>
+
+<input type = "range" id = "rotor2" class = "rotors" min = "1" max = "26" step="1">
+<span id = "rt2text"></span>
+<label for = "rotor3">Rotor 3:</label>
+
+<input type = "range" id = "rotor3" class = "rotors" min = "1" max = "26" step="1">
+<span id = "rt3text"></span>
+<span id = "output"></span>
+</div>
+<script src = "app.js"></script>
+</body>
+</html>
